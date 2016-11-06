@@ -1,0 +1,27 @@
+body { background: #ccccee;
+	}
+
+	.background    { background: url("../Images/Sky.jpg");
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+.background td { padding: 0;          }
+.lava          { background: #ffaacc; }
+.wall  /**/        { background: #ccffdd;   }
+.coin		{background: #ffffcc;}
+.villain {background: #ccffdd;}
+
+.actor {position: absolute; }
+.player { background:#ffffff; }
+
+.lost .player {
+  background: #e3d3ff;
+}
+.won .player {
+  box-shadow: -7px -7px 8px pink, 7px -7px 8px pink;
+}
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 550px;
+  position: relative;
+}
